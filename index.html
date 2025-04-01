@@ -14,46 +14,46 @@
         </div>
         <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></p>
     </div>
-    <div>
-        <div>
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-            <p>You <em>know</em> you want to.</p>
+    <div class="content-container">
+        <div class="introduction-container">
+            <p class="introduction">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p class="introduction-message">You <em>know</em> you want to.</p>
         </div>
         <form id="a-form">
-            <p>Let's do this!</p>
+            <p class="form-message">Let's do this!</p>
             <section>
-                <div>
+                <div class="field">
                     <label for="first_name"><span>FIRST NAME</span></label>
                     <input type="test" name="first_name" id="first_name" pattern="^[a-zA-Z]+$">
                 </div>
-                <div>
+                <div class="field">
                     <label for="last_name"><span>LAST NAME</span></label>
                     <input type="text" name="last_name" id="last_name" pattern="^[a-zA-Z]+$">
                 </div>
             </section>
             <section>
-                <div>
+                <div class="field">
                     <label for="email"><span>EMAIL</span></label>
                     <input type="email" name="email" id="email">
                 </div>
-                <div>
+                <div class="field">
                     <label for="phone"><span>PHONE NUMBER</span></label>
                     <input type="text" name="phone" id="phone" pattern="(^\+\d{1,3}\d{9}$)">
                 </div>
             </section>
             <section>
-                <div>
+                <div class="field">
                     <label for="password"><span>PASSWORD</span></label>
                     <input type="text" name="password" id="password" required>
                 </div>
-                <div>
+                <div class="field">
                     <label for="confirm_password"><span>CONFIRM PASSWORD</span></label>
                     <input type="text" name="confirm_password" id="confirm_password" required>
                 </div>
             </section>
         </form>
         <button for="a-form" type="submit">Create Account</button>
-        <p>Already have an account? <a href="">Log in</a></p>
+        <p class="login-redirect">Already have an account? <a href="">Log in</a></p>
     </div>
 </body>
 </html>
